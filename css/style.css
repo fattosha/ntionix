@@ -671,7 +671,7 @@
  
  #Contact-us .grid {
      display: grid;
-     grid-template-columns: 55% 60%;
+     grid-template-columns: 1fr 1fr;
      width: 90%;
      padding: 5%;
      height: fit-content;
