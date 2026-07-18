@@ -977,6 +977,18 @@
              flex-direction: column;
              width: 80%;
          }
-      body{background:red}
-      
+      body{
+    width:100%;
+}
+
+header,
+section,
+.About,
+.Portifolio,
+.table,
+#Videos,
+#Contact-us,
+footer{
+    width:100%!important;
+}
  }
