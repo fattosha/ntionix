@@ -978,7 +978,7 @@
              width: 80%;
          }
       body{
-    width:100%;
+    width:fit-content!important;
 }
 
 header,
