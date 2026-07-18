@@ -970,4 +970,8 @@
          display: flex;
          flex-direction: row;
      }
+         #Contact-us .info {
+             flex-direction: column;
+             width: 80%;
+         }
  }
