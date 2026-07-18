@@ -853,6 +853,8 @@
          bottom: 5%;
          left: 50%;
          transform: translateX(-50%);
+     }#Contact-us .grid {
+    grid-template-columns: 55% 60%;
      }
      nav,
      ul {
@@ -879,10 +881,11 @@
          grid-template-columns: 1fr!important;
      }
      .grid .slider .slide,
-     .slider2,
-     .slider {
-         min-width: 100vw;
-     }
+.slider2,
+.slider {
+    width: 100%;
+    min-width: 100%;
+}
      .slider2 .card {
          min-width: 90vw;
      }
@@ -974,7 +977,5 @@
              flex-direction: column;
              width: 80%;
          }
-      * {
-  outline: 1px solid red;
-      }
+      
  }
