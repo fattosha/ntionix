@@ -974,4 +974,6 @@
              flex-direction: column;
              width: 80%;
          }
+      body{width:100%;
+          overflow-x:hidden;}
  }
