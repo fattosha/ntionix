@@ -33,7 +33,7 @@ A modern, responsive, and visual landing page designed for a **Digital Marketing
 ---
 
 ## 📸 Page Preview
-![Website Screenshot](./screencapture-file-C-Users-user1-Downloads-NTI-B3-WEB-DESIGN-Menna-Khalid-attia-Ali-main-NTI-B3-WEB-DESIGN-Menna-Khalid-attia-Ali-main-projects-project1-index-html-2026-07-30-23_54_35.png)
+![Website Screenshot](./screencapture-file-C-Users-user1-Downloads-NTI-B3-WEB-DESIGN-Menna-Khalid-attia-Ali-main-NTI-B3-WEB-DESIGN-Menna-Khalid-attia-Ali-main-projects-project1-index-html-2026-07-30-23_54_35(1).png)
 
 
 ---
