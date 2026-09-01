@@ -1194,7 +1194,7 @@
     .cards .slider2 {
         display: flex !important;
         width: max-content !important;
-        animation: slider2-right 20s linear 1s infinite forwards !important;
+        animation: slider2-right 20s ease-in-out 1s infinite;
     }
 
     .cards .slider2 .card {
@@ -1204,34 +1204,32 @@
     }
 
     @keyframes slider2-right {
-        0%,
-        10% {
-            transform: translateX(0%);
-        }
+    0%, 10% {
+        transform: translateX(0);
+    }
 
-        12%,
-        30% {
-            transform: translateX(-96%);
-        }
+    12%, 22% {
+        transform: translateX(-90vw);
+    }
 
-        31%,
-        50% {
-            transform: translateX(calc(-96% * 2));
-        }
+    24%, 34% {
+        transform: translateX(-180vw);
+    }
 
-        53%,
-        70% {
-            transform: translateX(calc(-96% * 3));
-        }
+    36%, 46% {
+        transform: translateX(-270vw);
+    }
 
-        73%,
-        80% {
-            transform: translateX(calc(-96% * 4));
-        }
+    48%, 58% {
+        transform: translateX(-360vw);
+    }
 
-        83%,
-        100% {
-            transform: translateX(calc(-96% * 5));
-        }
+    60%, 70% {
+        transform: translateX(-450vw);
+    }
+
+    72%, 100% {
+        transform: translateX(0);
+    }
     }
 }
