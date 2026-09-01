@@ -1297,3 +1297,32 @@
         }
     }
      }
+     @media (max-width: 767px) {
+
+    header .grid {
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+    }
+
+    .slider {
+        width: 100% !important;
+        overflow: hidden !important;
+    }
+
+    .slider .slides {
+        display: flex !important;
+    }
+
+    .slider .slide {
+        min-width: 100vw !important;
+        width: 100vw !important;
+        max-width: 100vw !important;
+        flex: 0 0 100vw !important;
+
+        transform: none !important;
+
+        box-sizing: border-box !important;
+        padding: 25% 8% 0 8% !important;
+        margin: 0 !important;
+    }
+     }
