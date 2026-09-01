@@ -1190,4 +1190,51 @@
             transform: translateX(-200vw);
         }
     }
+}@media (max-width: 767px) {
+
+    .Portifolio .slider2 {
+        min-height: 500px;
+    }
+
+    .grid .slider .slide,
+    .slider2,
+    .slider {
+        min-width: 100vw;
+    }
+
+    .slider2 .card {
+        min-width: 90vw;
+    }
+
+    @keyframes slider2-right {
+        0%,
+        10% {
+            transform: translateX(0%);
+        }
+
+        12%,
+        30% {
+            transform: translateX(-96%);
+        }
+
+        31%,
+        50% {
+            transform: translateX(calc(-96% * 2));
+        }
+
+        53%,
+        70% {
+            transform: translateX(calc(-96% * 3));
+        }
+
+        73%,
+        80% {
+            transform: translateX(calc(-96% * 4));
+        }
+
+        83%,
+        100% {
+            transform: translateX(calc(-96% * 5));
+        }
+    }
 }
