@@ -1331,5 +1331,5 @@
 .slider .slide {
 transform: scaleY(1.5) scaleX(1.7) translateY(-400px) translatex(-50px)!important;
 transform-origin: top center !important;
-}.slide .flex{transform: scaleY(.5) }
+}.slide .flex{transform: scale(.5) }
      }
