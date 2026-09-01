@@ -1329,7 +1329,7 @@
     }
      }@media (max-width: 767px) {
 .slider .slide {
-transform: scaleY(1.5) scaleX(1.7) translateY(-400px) translatex(-100px)!important;
+transform: scaleY(1.5) scaleX(1.7) translateY(-400px) translatex(-50px)!important;
 transform-origin: top center !important;
 }
      }
