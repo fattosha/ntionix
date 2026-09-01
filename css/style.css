@@ -1183,21 +1183,21 @@
 
 /* ===== PHONE ===== */
 
+/* ===== SLIDER 2 MOBILE OVERRIDE ===== */
+
 @media (max-width: 767px) {
 
     .Portifolio .slider2 {
         min-height: 500px !important;
-        width: 100% !important;
     }
 
     .cards .slider2 {
-        width: max-content !important;
-        min-width: 100% !important;
-        animation: slider2-right 20s linear 1s infinite forwards !important;
         display: flex !important;
+        width: max-content !important;
+        animation: slider2-right 20s linear 1s infinite forwards !important;
     }
 
-    .slider2 .card {
+    .cards .slider2 .card {
         min-width: 90vw !important;
         width: 90vw !important;
         flex-shrink: 0 !important;
@@ -1234,5 +1234,4 @@
             transform: translateX(calc(-96% * 5));
         }
     }
-
 }
