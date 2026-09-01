@@ -1196,43 +1196,45 @@
         min-height: 500px;
     }
 
-    .grid .slider .slide,
-    .slider2,
-    .slider {
-        min-width: 100vw;
+    .slider2 {
+        display: flex;
     }
 
     .slider2 .card {
         min-width: 90vw;
     }
 
+    .cards .slider2 {
+        animation: slider2-right 20s linear 1s infinite forwards;
+    }
+
     @keyframes slider2-right {
         0%,
-        10% {
+        15% {
             transform: translateX(0%);
         }
 
-        12%,
+        20%,
         30% {
             transform: translateX(-96%);
         }
 
-        31%,
-        50% {
+        35%,
+        45% {
             transform: translateX(calc(-96% * 2));
         }
 
-        53%,
-        70% {
+        50%,
+        60% {
             transform: translateX(calc(-96% * 3));
         }
 
-        73%,
-        80% {
+        65%,
+        75% {
             transform: translateX(calc(-96% * 4));
         }
 
-        83%,
+        80%,
         100% {
             transform: translateX(calc(-96% * 5));
         }
