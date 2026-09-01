@@ -1327,4 +1327,9 @@
         padding: 25% 5% 0 10% !important;
         margin: 0 !important;
     }
+     }@media (max-width: 767px) {
+    .slider .slide {
+        transform: scaleY(.56) scaleX(1.7) !important;
+        transform-origin: top center !important;
+    }
      }
