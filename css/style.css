@@ -1187,26 +1187,15 @@
 
 @media (max-width: 767px) {
 
-    .Portifolio .slider2 {
-        min-height: 500px !important;
-    }
-
-    .cards {
-        width: 100%;
-        max-width: 100%;
-        overflow: hidden;
-    }
-
     .cards .slider2 {
         display: flex !important;
         width: max-content !important;
         animation: slider2-right 20s ease-in-out 1s infinite !important;
     }
 
-    .slider2 .card {
+    .cards .slider2 .card {
         min-width: 90vw !important;
         width: 90vw !important;
-        max-width: 90vw !important;
         flex-shrink: 0 !important;
     }
 
@@ -1217,23 +1206,23 @@
         }
 
         12%, 22% {
-            transform: translateX(-90vw);
+            transform: translateX(calc(-90vw - 20px));
         }
 
         24%, 34% {
-            transform: translateX(-180vw);
+            transform: translateX(calc((-90vw - 20px) * 2));
         }
 
         36%, 46% {
-            transform: translateX(-270vw);
+            transform: translateX(calc((-90vw - 20px) * 3));
         }
 
         48%, 58% {
-            transform: translateX(-360vw);
+            transform: translateX(calc((-90vw - 20px) * 4));
         }
 
         60%, 70% {
-            transform: translateX(-450vw);
+            transform: translateX(calc((-90vw - 20px) * 5));
         }
 
         72%, 100% {
