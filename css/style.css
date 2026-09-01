@@ -1136,4 +1136,18 @@
     iframe {
         max-width: 100%;
     }
+}@media (max-width: 767px) {
+    @keyframes slider-right {
+        0%, 30% {
+            transform: translateX(0);
+        }
+
+        31%, 70% {
+            transform: translateX(-100%);
+        }
+
+        71%, 100% {
+            transform: translateX(-200%);
+        }
+    }
 }
